@@ -1,0 +1,17 @@
+Package: scbapi
+Title: SCB_api
+Version: 0.0.1
+Authors@R: person("Johan", "Junkka", email = "johan.junkka@gmail.com", role = c("aut", "cre"))
+Description: Build queries for SCB api and get data. 
+Depends: R (>= 3.2.2)
+License: MIT
+LazyData: true
+Imports: httr,
+    jsonlite
+Suggests: knitr,
+    dplyr,
+    tidyr,
+    ggplot2,
+    stringr,
+    rmarkdown
+VignetteBuilder: knitr
